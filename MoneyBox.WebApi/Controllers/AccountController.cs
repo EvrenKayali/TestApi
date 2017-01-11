@@ -318,6 +318,8 @@ namespace MoneyBox.WebApi.Controllers
                 Password = model.Password
             });
 
+
+
             return loginResult;
         }
 
