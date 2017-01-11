@@ -329,6 +329,7 @@ namespace MoneyBox.WebApi.Controllers
         {
             if (!ModelState.IsValid)
             {
+                // Evrem test comment
                 return BadRequest(ModelState);
             }
 
