@@ -304,3 +304,8 @@ C:\projects\MoneyBox\MoneyBox.WebApi\bin\System.Web.Http.Owin.xml
 C:\projects\MoneyBox\MoneyBox.WebApi\obj\Debug\MoneyBox.WebApi.csprojResolveAssemblyReference.cache
 C:\projects\MoneyBox\MoneyBox.WebApi\obj\Debug\MoneyBox.WebApi.dll
 C:\projects\MoneyBox\MoneyBox.WebApi\obj\Debug\MoneyBox.WebApi.pdb
+C:\projects\MoneyBox\MoneyBox.WebApi\bin\Microsoft.IdentityModel.Logging.dll
+C:\projects\MoneyBox\MoneyBox.WebApi\bin\Microsoft.IdentityModel.Tokens.dll
+C:\projects\MoneyBox\MoneyBox.WebApi\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\projects\MoneyBox\MoneyBox.WebApi\bin\Microsoft.IdentityModel.Tokens.xml
+C:\projects\MoneyBox\MoneyBox.WebApi\bin\System.IdentityModel.Tokens.Jwt.xml
