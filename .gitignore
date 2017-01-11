@@ -2,3 +2,4 @@ logs
 *.log
 .vs
 packages
+bin
