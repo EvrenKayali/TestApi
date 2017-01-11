@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyBox.WebApi", "MoneyBox.WebApi\MoneyBox.WebApi.csproj", "{38E30FFE-CA44-46C5-8B36-7EE48E463E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyBox.Domain", "MoneyBox.Domain\MoneyBox.Domain.csproj", "{B1AE5FBE-A6E7-4273-B820-E7F77BF87507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyBox.DAL", "MoneyBox.DAL\MoneyBox.DAL.csproj", "{24B7C266-64C0-4340-9F76-34DBCD59DA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyBox.Business", "MoneyBox.Business\MoneyBox.Business.csproj", "{EF2B37B2-F3CD-432A-80AE-A30489950894}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38E30FFE-CA44-46C5-8B36-7EE48E463E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E30FFE-CA44-46C5-8B36-7EE48E463E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E30FFE-CA44-46C5-8B36-7EE48E463E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E30FFE-CA44-46C5-8B36-7EE48E463E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1AE5FBE-A6E7-4273-B820-E7F77BF87507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AE5FBE-A6E7-4273-B820-E7F77BF87507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AE5FBE-A6E7-4273-B820-E7F77BF87507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AE5FBE-A6E7-4273-B820-E7F77BF87507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B7C266-64C0-4340-9F76-34DBCD59DA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B7C266-64C0-4340-9F76-34DBCD59DA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B7C266-64C0-4340-9F76-34DBCD59DA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B7C266-64C0-4340-9F76-34DBCD59DA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2B37B2-F3CD-432A-80AE-A30489950894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2B37B2-F3CD-432A-80AE-A30489950894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2B37B2-F3CD-432A-80AE-A30489950894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2B37B2-F3CD-432A-80AE-A30489950894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
