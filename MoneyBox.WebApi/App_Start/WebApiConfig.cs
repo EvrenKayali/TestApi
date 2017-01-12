@@ -6,6 +6,7 @@ using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
 using System.Web.Http.Cors;
+using MoneyBox.WebApi.Filters;
 
 namespace MoneyBox.WebApi
 {
@@ -29,8 +30,8 @@ namespace MoneyBox.WebApi
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-
-            config.IncludeErrorDetailPolicy = IncludeErrorDetailPolicy.Always;
+            config.Filters.Add(new BusinessExceptionHandlerAttribute());
+            config.IncludeErrorDetailPolicy = IncludeErrorDetailPolicy.Never;
         }
     }
 }
