@@ -3,3 +3,4 @@ logs
 .vs
 packages
 bin
+obj
